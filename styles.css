@@ -7,6 +7,9 @@
 *:focus {
   outline: none;
 }
+a{
+  color: #1a0dab;
+}
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -29,7 +32,7 @@ main {
   justify-content: space-between;
 }
 .main__left {
-  padding-left: 10rem;
+  padding-left: 2rem;
 }
 .main__content p {
   color: grey;
@@ -85,6 +88,9 @@ main {
 }
 .lower__header .buttons span {
   margin-left: 10px;
+}
+.control__with__filters {
+  padding-left: 266px;
 }
 .first__card {
   display: flex;
@@ -150,13 +156,92 @@ justify-content: flex-end;
 margin-top: -10px;
 z-index: 2;
 position: relative;
-
 color: white;
 }
 .more__images__bg{
-  width: 150px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 134px;
   margin-top: -25px;
-margin-right: 2px;
-background-color: rgba(0, 0, 0, 0.498);
+margin-right: 32px;
+background-color: rgba(0, 0, 0, 0.665);
 font-size: 12px;
+}
+.more__images__bg span{
+  margin-left: 5px;
+}
+.other__cards{
+  border-right: 1px solid #00000026;
+  padding-right: 30px;
+  width: 712px;
+}
+.top__stories h2{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.217);
+}
+.news__blocks{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 10px;
+}
+.news__blocks a{
+text-decoration: none;
+font-size: 15px;
+display: block;
+}
+.news__blocks img:not(:first-child){
+  border-radius: 5px;
+}
+.news__blocks .first__block{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.news__blocks .first__column{
+  border-right: 1px solid rgba(0, 0, 0, 0.239);  
+  padding-right: 12px;
+}
+.news__blocks .first__block:nth-child(2){
+  border-top: 1px solid rgba(0, 0, 0, 0.239);
+  padding-top: 12px;
+  margin-top: 15px;
+}
+.news__blocks .first__block img:not(:first-child){
+  margin-left: 15px;
+}
+.news__blocks .first__block p{
+color: rgba(0, 0, 0, 0.797);
+font-size: 13px;
+margin-top: 5px;
+}
+aside{
+  padding-left: 20px;
+  margin-top: 150px;
+}
+aside .title h2, aside .stats h2{
+font-weight: 500;
+font-size: 20px;
+}
+aside .title p{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.672);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.bio1{
+  margin-top: 10px;
+}
+.stats{
+  margin-top: 1rem;
+}
+.stats p{
+  font-size: 13px;
+}
+.stats p:hover{
+  text-decoration: underline;
 }

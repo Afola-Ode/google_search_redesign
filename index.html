@@ -5,18 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <title>Google Search Redesign</title>
   </head>
   <body>
     <section class="wrapper">
       <section class="container">
+        <!-- header -->
         <header>
           <div class="top__bar">
             <div class="logo">
@@ -78,9 +76,11 @@
     <main>
       <div class="main__wrapper">
         <div class="main__left">
+          <!-- search results -->
           <p class="search__results">
             About 214,000,000 results (0.64 seconds)
           </p>
+          <!-- Messi intro -->
           <div class="first__card">
             <img src="./images/messi.png" alt="" />
             <div class="card__title">
@@ -104,21 +104,108 @@
               </button>
             </div>
           </div>
-          <div class="second__card">
-            <img src="./images/messi0.jpg" alt="messi" /><img
-              src="./images/messi1.jpg"
-              alt="messi"
-            /><img src="./images/messi2.jpg" alt="messi" /><img
-              src="./images/messi3.jpg"
-              alt="messi"
-            /><img src="./images/messi6.jpg" alt="messi" />
+          <div class="other__cards">
+            <!-- messi images -->
+            <div class="second__card">
+              <img src="./images/messi0.jpg" alt="messi" /><img
+                src="./images/messi1.jpg"
+                alt="messi"
+              /><img src="./images/messi2.jpg" alt="messi" /><img
+                src="./images/messi3.jpg"
+                alt="messi"
+              /><img src="./images/messi6.jpg" alt="messi" />
+            </div>
+            <!-- more images -->
+            <div class="more__images">
+              <div class="more__images__bg">
+                <img src="./images/moreimages.png" alt="more" /><span>
+                  More Images</span
+                >
+              </div>
+            </div>
+            <!-- top stories -->
+            <div class="top__stories">
+              <h2>Top Stories</h2>
+              <div class="news__blocks">
+                <div class="first__column">
+                  <div class="first__block">
+                    <div>
+                      <img src="./images/goal.png" alt="goal">
+                      <a href="">
+                        Gvardiol explains why facing PSG star Lionel Messi is harder when he's playing f...</a>
+                        <p>9 hours ago</p>
+                    </div>
+                    <img src="./images/goalimg.jpg" alt="">
+                  </div>
+                  
+                  <div class="first__block">
+                    <div>
+                      <img src="./images/goalpost.jpg" alt="goalpost">
+                      <a href="">Why I didn’t congratulate Messi for winning World Cup in Qatar – Tevez</a>
+                      <p>4 hours ago</p>
+                    </div>
+                    <img src="./images/expressimg.jpg" alt="">
+                  </div>
+                </div>
+                <div class="second__column">
+                  <div class="first__block">
+                    <div>
+                      <img src="./images/express.png" alt="goal">
+                      <a href="">
+                        Gvardiol explains why facing PSG star Lionel Messi is harder when he's playing f...</a>
+                        <p>11 hours ago</p>
+                    </div>
+                    <img src="./images/expressimg.jpg" alt="">
+                  </div>
+                  
+                  <div class="first__block">
+                    <div>
+                      <img src="./images/goal.png" alt="express">
+                      <a href="">'I didn't need time at Barca because I had Messi!' - Chelsea should stick with...</a>
+                      <p>1 hours ago</p>
+                    </div>
+                    <img src="./images/goalsecimg.jpg" alt="">
+                  </div>
+                </div>
+                
+              </div>
+            </div>
           </div>
-          <div class="more__images">
-            <div class="more__images__bg"><img src="./images/moreimages.png" alt=""><span> More Images</span></div>
-            
-          </div>
+          
         </div>
-        <aside>hhhhh</aside>
+        <aside>
+          <div class="title">
+            <h2>About</h2>
+            <p>Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. <a href="#">Wikipedia</a></p>
+            <div class="bio1">
+              <p><b>Born:</b>  24 June 1987 (age 35 years), <a href="#">Rosario</a> , <a href="#">Argentina</a></p>
+            </div>
+            <div class="bio1">
+              <p><b>Height:</b> 1.69 m</p>
+            </div>
+            <div class="bio1">
+              <p><b>Spouse:</b> <a href="#">Antonela Roccuzzo</a> (m. 2017)</p>
+            </div>
+            <div class="bio1">
+              <p><b>Current teams:</b> <a href="#">Paris Saint-Germain F.C.</a> (#30 / Forward), <a href="#">Argentina national football</a>  team (#10 / Forward)</p>
+            </div>
+            <div class="bio1">
+              <p><b>Salary:</b> 41 million USD (2022)</p>
+            </div>
+            <div class="bio1">
+              <p><b>Shoe size:</b> 10</p>
+            </div>
+            <div class="bio1">
+              <p><b>Children:</b> <a href="#">Mateo Messi Roccuzzo</a>, <a href="#">Thiago Messi Roccuzzo</a>, <a href="#">Ciro Messi Roccuzzo</a></p>
+            </div>
+             
+          </div>
+          <!-- stats -->
+          <div class="stats">
+            <h2>Stats</h2>
+            <p>Argentina</p>
+          </div>
+        </aside>
       </div>
     </main>
   </body>
