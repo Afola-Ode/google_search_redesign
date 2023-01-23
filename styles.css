@@ -13,6 +13,9 @@ a{
 body {
   font-family: 'Poppins', sans-serif;
 }
+button{
+  cursor: pointer;
+}
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -136,6 +139,9 @@ margin-left: 10px;
   background-color: #e7e7ea;
   border: 1px solid #e7e7ea;
 }
+.main__left .buttons button:hover{
+  background-color: #ceced1;
+}
 .second__card{
   margin-top: 30px;
 }
@@ -176,12 +182,15 @@ font-size: 12px;
   padding-right: 30px;
   width: 712px;
 }
-.top__stories h2{
+.top__stories h2, .people__ask h2:first-child{
   font-weight: 500;
   font-size: 20px;
   margin-top: 40px;
   margin-bottom: 15px;
   padding-bottom: 10px;
+  
+}
+.top__stories, .top__stories h2{
   border-bottom: 1px solid rgba(0, 0, 0, 0.217);
 }
 .news__blocks{
@@ -244,4 +253,46 @@ aside .title p{
 }
 .stats p:hover{
   text-decoration: underline;
+}
+#customers th {
+  border-bottom: 2px solid #000;
+}
+.table__heading, .table__body{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.415);
+  padding: 7px 0;
+}
+details{
+  margin-bottom: 15px;
+}
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(136, 136, 136, 0.415);
+  padding-bottom: 13px;
+}
+.people__ask img{
+  width: 15px;
+  height: 10px;
+}
+.summary__content{
+  margin-top: 10px;
+}
+.summary__resource__link{
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+}
+.people__ask__search {
+  margin: 12px 0;
+}
+.people__also__search h3{
+  font-size: 17px;
+  font-weight: 400;
+}
+.people__also__search a{
+  text-decoration: none;
 }
