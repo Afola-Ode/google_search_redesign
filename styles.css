@@ -281,7 +281,7 @@ summary {
 .summary__content{
   margin-top: 10px;
 }
-.summary__resource__link{
+.summary__resource__link, .other__search__results__link a{
   font-size: 13px;
   text-decoration: none;
   color: #000;
@@ -293,6 +293,13 @@ summary {
   font-size: 17px;
   font-weight: 400;
 }
-.people__also__search a{
+.people__also__search a,.other__search__results__link a{
   text-decoration: none;
+}
+.other__search__results{
+  margin-top: 30px;
+}
+.other__search__results__heading{
+  font-size: 18px;
+  font-weight: 500;
 }
